@@ -4,6 +4,7 @@ public class Aluno {
     private String nome;
     private Double nota;
     private String cidade;
+    private int idade;
 
     public String getCidade() {
         return cidade;
@@ -27,6 +28,14 @@ public class Aluno {
 
     public void setNota(Double nota) {
         this.nota = nota;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 
     public Aluno() {
